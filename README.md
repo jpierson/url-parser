@@ -54,7 +54,7 @@ route =
 -- parseHash route { ... , hash = "#/blog" }       == Nothing
 ```
 
-Notice that we are turning URLs into nice [union types](https://guide.elm-lang.org/types/union_types.html), so we can use `case` expressions to work with them in a nice way.
+Notice that we are turning URLs into nice [custom types](https://guide.elm-lang.org/types/custom_types.html), so we can use `case` expressions to work with them in a nice way.
 
 Check out the `examples/` directory of this repo to see this in use with `elm-lang/navigation`.
 
